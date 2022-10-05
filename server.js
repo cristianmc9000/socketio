@@ -15,4 +15,4 @@ io.on('connection', (socket) => {
 	socket.on('chatmsg', msg => {
 		io.emit('message', msg);
 	})
-}) 
+})
