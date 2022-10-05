@@ -1,4 +1,4 @@
-const io = require('socket.io')(8080, {
+const io = require('socket.io')(3000, {
 	cors: {
 		origin: "https://qr-socket.ga",
 		methods: ['GET', 'POST'],
