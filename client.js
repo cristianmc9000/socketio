@@ -1,7 +1,7 @@
 const mensajes = document.getElementById('mensajes');
 const msgForm = document.getElementById('msgForm');
 
-const socket = io('http://localhost:8080');
+const socket = io('https://localhost:8080');
 
 socket.on('message', data => {
 	console.log(data)

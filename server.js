@@ -1,6 +1,6 @@
 const io = require('socket.io')(8080, {
 	cors: {
-		origin: "http://localhost",
+		origin: "https://localhost",
 		methods: ['GET', 'POST'],
 		allowedHeaders: ["my-custom-header"],
 		credentials: true
