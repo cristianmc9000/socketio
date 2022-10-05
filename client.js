@@ -1,7 +1,7 @@
 const mensajes = document.getElementById('mensajes');
 const msgForm = document.getElementById('msgForm');
 
-const socket = io('http://localhost:3000');
+const socket = io('http://qr-socket.ga:3000');
 
 socket.on('message', data => {
 	console.log(data)
