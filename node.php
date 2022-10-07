@@ -8,7 +8,7 @@
 
 error_reporting(E_ALL);
 
-set_time_limit(120);
+set_time_limit(240);
 
 define("ADMIN_MODE", true); //set to true to allow unsafe operations, set back to false when finished
 
