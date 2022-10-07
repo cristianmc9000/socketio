@@ -1,6 +1,6 @@
 const io = require('socket.io')(3000, {
 	cors: {
-		origin: "http://localhost",
+		origin: "https://cristianmc9000.github.io",
 		methods: ['GET', 'POST'],
 		allowedHeaders: ["my-custom-header"],
 		credentials: true
